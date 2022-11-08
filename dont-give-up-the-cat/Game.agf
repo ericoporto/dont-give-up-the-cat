@@ -11,7 +11,7 @@
       <AndroidBuildFormat>ApkEmbedded</AndroidBuildFormat>
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
-      <AttachDataToExe>False</AttachDataToExe>
+      <AttachDataToExe>True</AttachDataToExe>
       <AudioIndexer>0</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
@@ -19,7 +19,7 @@
       <BuildTargets>Windows</BuildTargets>
       <ClipGUIControls>True</ClipGUIControls>
       <ColorDepth>TrueColor</ColorDepth>
-      <CompressSpritesType>None</CompressSpritesType>
+      <CompressSpritesType>RLE</CompressSpritesType>
       <CrossfadeMusic>No</CrossfadeMusic>
       <CustomDataDir IsNull="True" />
       <CustomResolution>320,180</CustomResolution>
