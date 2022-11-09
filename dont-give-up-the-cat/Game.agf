@@ -994,7 +994,7 @@
             <NormalView>1</NormalView>
             <Properties />
             <RealName>CHARACTER</RealName>
-            <ScriptName>cCharacter</ScriptName>
+            <ScriptName>cCat</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
@@ -5522,6 +5522,30 @@
           </ScriptFolder>
         </SubFolders>
         <ScriptAndHeaders>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
+                <FileName>WorldUtils.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>65529070</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>WorldUtils.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>65529070</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
           <ScriptAndHeader>
             <ScriptAndHeader_Header>
               <Script>
