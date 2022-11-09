@@ -1037,7 +1037,7 @@
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <ID>0</ID>
-        <Image>0</Image>
+        <Image>1</Image>
         <Name xml:space="preserve">Walk to</Name>
         <StandardMode>True</StandardMode>
         <View>0</View>
@@ -1050,7 +1050,7 @@
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <ID>1</ID>
-        <Image>0</Image>
+        <Image>1</Image>
         <Name xml:space="preserve">Look at</Name>
         <StandardMode>True</StandardMode>
         <View>0</View>
@@ -1063,7 +1063,7 @@
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <ID>2</ID>
-        <Image>0</Image>
+        <Image>1</Image>
         <Name>Interact</Name>
         <StandardMode>True</StandardMode>
         <View>0</View>
@@ -1076,7 +1076,7 @@
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <ID>3</ID>
-        <Image>0</Image>
+        <Image>1</Image>
         <Name xml:space="preserve">Talk to</Name>
         <StandardMode>True</StandardMode>
         <View>0</View>
@@ -1089,7 +1089,7 @@
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <ID>4</ID>
-        <Image>0</Image>
+        <Image>1</Image>
         <Name xml:space="preserve">Use inv</Name>
         <StandardMode>False</StandardMode>
         <View>0</View>
@@ -1102,7 +1102,7 @@
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <ID>5</ID>
-        <Image>0</Image>
+        <Image>1</Image>
         <Name xml:space="preserve">Pick up</Name>
         <StandardMode>False</StandardMode>
         <View>0</View>
@@ -1115,7 +1115,7 @@
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <ID>6</ID>
-        <Image>0</Image>
+        <Image>1</Image>
         <Name>Pointer</Name>
         <StandardMode>False</StandardMode>
         <View>0</View>
@@ -1128,7 +1128,7 @@
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <ID>7</ID>
-        <Image>0</Image>
+        <Image>1</Image>
         <Name>Wait</Name>
         <StandardMode>False</StandardMode>
         <View>0</View>
