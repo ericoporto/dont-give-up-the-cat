@@ -16,5 +16,3 @@ enum TerrainType {
 
 import TerrainType GetTerrainAtRoomXY(int x, int y);
 import bool IsWallAtRoomXY(int x, int y);// new module header
-
-import int SpriteFromTerrainType(TerrainType terrain_type);
