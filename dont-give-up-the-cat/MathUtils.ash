@@ -17,3 +17,5 @@ import int ClampI(int v, int min, int max);
 import int ClampLoopI(int v, int min, int max);
 
 import float ClampLoopF(float v, float min, float max);
+
+import float Lerp(float from, float to, float t);
