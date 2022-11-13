@@ -2382,7 +2382,7 @@
           <Character>
             <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
             <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
-            <AnimationDelay>2</AnimationDelay>
+            <AnimationDelay>1</AnimationDelay>
             <BlinkingView>0</BlinkingView>
             <Clickable>True</Clickable>
             <DiagonalLoops>True</DiagonalLoops>
@@ -2398,7 +2398,7 @@
             <Properties />
             <RealName xml:space="preserve">New character</RealName>
             <ScriptName>cGhostFloatingcat</ScriptName>
-            <Solid>True</Solid>
+            <Solid>False</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
@@ -2466,7 +2466,7 @@
           <Character>
             <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
             <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
-            <AnimationDelay>4</AnimationDelay>
+            <AnimationDelay>2</AnimationDelay>
             <BlinkingView>0</BlinkingView>
             <Clickable>True</Clickable>
             <DiagonalLoops>True</DiagonalLoops>
