@@ -19,3 +19,5 @@ import int ClampLoopI(int v, int min, int max);
 import float ClampLoopF(float v, float min, float max);
 
 import float Lerp(float from, float to, float t);
+
+import int GetDistance(int x1, int y1, int x2, int y2);

@@ -2120,6 +2120,27 @@
             </NormalGUI>
             <Controls />
           </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <BorderColor>0</BorderColor>
+              <Clickable>False</Clickable>
+              <Height>180</Height>
+              <ID>11</ID>
+              <Left>0</Left>
+              <Name>gScrFx</Name>
+              <OnClick />
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <Top>0</Top>
+              <Transparency>0</Transparency>
+              <Visible>True</Visible>
+              <Width>320</Width>
+              <ZOrder>12000</ZOrder>
+            </NormalGUI>
+            <Controls />
+          </GUIMain>
         </GUIs>
       </GUIFolder>
     </GUIs>
@@ -2339,8 +2360,8 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>160</StartX>
-            <StartY>160</StartY>
+            <StartX>954</StartX>
+            <StartY>769</StartY>
             <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -2361,7 +2382,7 @@
           <Character>
             <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
             <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
-            <AnimationDelay>4</AnimationDelay>
+            <AnimationDelay>2</AnimationDelay>
             <BlinkingView>0</BlinkingView>
             <Clickable>True</Clickable>
             <DiagonalLoops>True</DiagonalLoops>
@@ -7858,6 +7879,30 @@
           </ScriptFolder>
         </SubFolders>
         <ScriptAndHeaders>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
+                <FileName>ScreenEffects.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>1999622694</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>ScreenEffects.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>1999622694</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
           <ScriptAndHeader>
             <ScriptAndHeader_Header>
               <Script>

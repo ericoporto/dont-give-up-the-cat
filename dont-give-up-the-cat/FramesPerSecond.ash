@@ -4,3 +4,4 @@
 
 import int GetFPS();
 import int Frame;
+import bool Frame_Odd;
