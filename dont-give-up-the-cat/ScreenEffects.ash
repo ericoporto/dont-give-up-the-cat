@@ -11,6 +11,7 @@ struct ScreenEffects {
   
   // private internals
   protected bool _on; // $AUTOCOMPLETEIGNORE$
+  protected int _fx_cnt;
   protected DynamicSprite* _spr_fx;
   protected DynamicSprite* _screen;
 };

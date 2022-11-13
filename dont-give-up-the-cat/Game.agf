@@ -12,7 +12,7 @@
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>True</AttachDataToExe>
-      <AudioIndexer>0</AudioIndexer>
+      <AudioIndexer>17</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
@@ -8002,6 +8002,30 @@
           <ScriptAndHeader>
             <ScriptAndHeader_Header>
               <Script>
+                <FileName>GameSounds.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>34645883</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>GameSounds.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>34645883</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
                 <FileName>MapObjectSprites.ash</FileName>
                 <Name />
                 <Description />
@@ -8161,7 +8185,98 @@
             </AudioClipFolder>
           </AudioClipFolder>
           <AudioClipFolder Name="Sounds">
-            <SubFolders />
+            <SubFolders>
+              <AudioClipFolder Name="Steps">
+                <SubFolders />
+                <AudioClips>
+                  <AudioClip>
+                    <BundlingType>InGameEXE</BundlingType>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <FileType>OGG</FileType>
+                    <ID>7</ID>
+                    <Index>12</Index>
+                    <ScriptName>aStep_dryleave_01</ScriptName>
+                    <SourceFileName>Audio/SFX/Steps/step_dryleave_01.ogg</SourceFileName>
+                    <Type>3</Type>
+                    <FileLastModifiedDate>2022-11-13 17:10:45Z</FileLastModifiedDate>
+                  </AudioClip>
+                  <AudioClip>
+                    <BundlingType>InGameEXE</BundlingType>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <FileType>OGG</FileType>
+                    <ID>8</ID>
+                    <Index>13</Index>
+                    <ScriptName>aStep_dryleave_02</ScriptName>
+                    <SourceFileName>Audio/SFX/Steps/step_dryleave_02.ogg</SourceFileName>
+                    <Type>3</Type>
+                    <FileLastModifiedDate>2022-11-13 17:11:40Z</FileLastModifiedDate>
+                  </AudioClip>
+                  <AudioClip>
+                    <BundlingType>InGameEXE</BundlingType>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <FileType>OGG</FileType>
+                    <ID>9</ID>
+                    <Index>14</Index>
+                    <ScriptName>aStep_dryleave_03</ScriptName>
+                    <SourceFileName>Audio/SFX/Steps/step_dryleave_03.ogg</SourceFileName>
+                    <Type>3</Type>
+                    <FileLastModifiedDate>2022-11-13 17:12:43Z</FileLastModifiedDate>
+                  </AudioClip>
+                  <AudioClip>
+                    <BundlingType>InGameEXE</BundlingType>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <FileType>OGG</FileType>
+                    <ID>10</ID>
+                    <Index>15</Index>
+                    <ScriptName>aStep_dryleave_04</ScriptName>
+                    <SourceFileName>Audio/SFX/Steps/step_dryleave_04.ogg</SourceFileName>
+                    <Type>3</Type>
+                    <FileLastModifiedDate>2022-11-13 17:13:49Z</FileLastModifiedDate>
+                  </AudioClip>
+                  <AudioClip>
+                    <BundlingType>InGameEXE</BundlingType>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <FileType>OGG</FileType>
+                    <ID>11</ID>
+                    <Index>16</Index>
+                    <ScriptName>aStep_dryleave_05</ScriptName>
+                    <SourceFileName>Audio/SFX/Steps/step_dryleave_05.ogg</SourceFileName>
+                    <Type>3</Type>
+                    <FileLastModifiedDate>2022-11-13 17:14:36Z</FileLastModifiedDate>
+                  </AudioClip>
+                  <AudioClip>
+                    <BundlingType>InGameEXE</BundlingType>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <FileType>OGG</FileType>
+                    <ID>12</ID>
+                    <Index>17</Index>
+                    <ScriptName>aStep_dryleave_06</ScriptName>
+                    <SourceFileName>Audio/SFX/Steps/step_dryleave_06.ogg</SourceFileName>
+                    <Type>3</Type>
+                    <FileLastModifiedDate>2022-11-13 17:15:30Z</FileLastModifiedDate>
+                  </AudioClip>
+                </AudioClips>
+                <AudioClipFolder>
+                  <DefaultBundlingType>InGameEXE</DefaultBundlingType>
+                  <DefaultPriority>Inherit</DefaultPriority>
+                  <DefaultRepeat>Inherit</DefaultRepeat>
+                  <DefaultType>3</DefaultType>
+                  <DefaultVolume>100</DefaultVolume>
+                </AudioClipFolder>
+              </AudioClipFolder>
+            </SubFolders>
             <AudioClips />
             <AudioClipFolder>
               <DefaultBundlingType>InGameEXE</DefaultBundlingType>
@@ -8171,13 +8286,128 @@
               <DefaultVolume>100</DefaultVolume>
             </AudioClipFolder>
           </AudioClipFolder>
+          <AudioClipFolder Name="Ambient">
+            <SubFolders />
+            <AudioClips>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>OGG</FileType>
+                <ID>0</ID>
+                <Index>1</Index>
+                <ScriptName>aAtmosphere_1</ScriptName>
+                <SourceFileName>Audio/Ambient/atmosphere_1.ogg</SourceFileName>
+                <Type>1</Type>
+                <FileLastModifiedDate>2011-03-12 06:52:12Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>OGG</FileType>
+                <ID>1</ID>
+                <Index>2</Index>
+                <ScriptName>aAtmosphere_2</ScriptName>
+                <SourceFileName>Audio/Ambient/atmosphere_2.ogg</SourceFileName>
+                <Type>1</Type>
+                <FileLastModifiedDate>2011-03-12 06:53:04Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>OGG</FileType>
+                <ID>2</ID>
+                <Index>3</Index>
+                <ScriptName>aAtmosphere_3</ScriptName>
+                <SourceFileName>Audio/Ambient/atmosphere_3.ogg</SourceFileName>
+                <Type>1</Type>
+                <FileLastModifiedDate>2011-03-12 07:00:32Z</FileLastModifiedDate>
+              </AudioClip>
+            </AudioClips>
+            <AudioClipFolder>
+              <DefaultBundlingType>InGameEXE</DefaultBundlingType>
+              <DefaultPriority>Inherit</DefaultPriority>
+              <DefaultRepeat>False</DefaultRepeat>
+              <DefaultType>1</DefaultType>
+              <DefaultVolume>100</DefaultVolume>
+            </AudioClipFolder>
+          </AudioClipFolder>
+          <AudioClipFolder Name="Crickets">
+            <SubFolders />
+            <AudioClips>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>OGG</FileType>
+                <ID>3</ID>
+                <Index>8</Index>
+                <ScriptName>aBug_1</ScriptName>
+                <SourceFileName>Audio/Crickets/bug_1.ogg</SourceFileName>
+                <Type>4</Type>
+                <FileLastModifiedDate>2011-03-12 06:47:30Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>OGG</FileType>
+                <ID>4</ID>
+                <Index>9</Index>
+                <ScriptName>aBug_2</ScriptName>
+                <SourceFileName>Audio/Crickets/bug_2.ogg</SourceFileName>
+                <Type>4</Type>
+                <FileLastModifiedDate>2011-03-12 06:57:16Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>OGG</FileType>
+                <ID>5</ID>
+                <Index>10</Index>
+                <ScriptName>aCricket_1</ScriptName>
+                <SourceFileName>Audio/Crickets/cricket_1.ogg</SourceFileName>
+                <Type>4</Type>
+                <FileLastModifiedDate>2011-03-12 05:42:58Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>OGG</FileType>
+                <ID>6</ID>
+                <Index>11</Index>
+                <ScriptName>aCricket_2</ScriptName>
+                <SourceFileName>Audio/Crickets/cricket_2.ogg</SourceFileName>
+                <Type>4</Type>
+                <FileLastModifiedDate>2011-03-12 05:44:14Z</FileLastModifiedDate>
+              </AudioClip>
+            </AudioClips>
+            <AudioClipFolder>
+              <DefaultBundlingType>InGameEXE</DefaultBundlingType>
+              <DefaultPriority>Inherit</DefaultPriority>
+              <DefaultRepeat>Inherit</DefaultRepeat>
+              <DefaultType>4</DefaultType>
+              <DefaultVolume>100</DefaultVolume>
+            </AudioClipFolder>
+          </AudioClipFolder>
         </SubFolders>
         <AudioClips />
         <AudioClipFolder>
           <DefaultBundlingType>InGameEXE</DefaultBundlingType>
           <DefaultPriority>Normal</DefaultPriority>
           <DefaultRepeat>False</DefaultRepeat>
-          <DefaultType>1</DefaultType>
+          <DefaultType>3</DefaultType>
           <DefaultVolume>100</DefaultVolume>
         </AudioClipFolder>
       </AudioClipFolder>
@@ -8185,7 +8415,7 @@
     <AudioClipTypes>
       <AudioClipType>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
-        <CrossfadeClips>No</CrossfadeClips>
+        <CrossfadeClips>MediumFade</CrossfadeClips>
         <MaxChannels>1</MaxChannels>
         <Name xml:space="preserve">Ambient Sound</Name>
         <TypeID>1</TypeID>
@@ -8205,6 +8435,14 @@
         <MaxChannels>0</MaxChannels>
         <Name>Sound</Name>
         <TypeID>3</TypeID>
+        <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
+      </AudioClipType>
+      <AudioClipType>
+        <BackwardsCompatibilityType>False</BackwardsCompatibilityType>
+        <CrossfadeClips>No</CrossfadeClips>
+        <MaxChannels>0</MaxChannels>
+        <Name>Crickets</Name>
+        <TypeID>4</TypeID>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
       </AudioClipType>
     </AudioClipTypes>
