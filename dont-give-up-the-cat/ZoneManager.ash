@@ -35,7 +35,7 @@ struct ZoneManager {
   /// Gets the zone ID for a X,Z World position
   import int GetZoneID_FromObjPos(float x, float z);
   /// Updates the current main zone in the Zone Manager. Automatically Refresh Object Zones as needed and adjust active zones. ZoneChanged is set to true when a zone change occurs.
-  import void UpdateCurrentPos(float x, float z, bool skip_cooldown);
+  import void UpdateCurrentPos(float x, float z);
   /// Is set to true when a zone change just occured (in UpdateCurrentPos), false otherwise.
   writeprotected bool ZoneChanged;
   

@@ -41,3 +41,5 @@
 
 #define SPR_HOME_ANGL_000 39
 #define SPR_HOME_ANGL_358 218
+
+#define SPR_SMOKE 258

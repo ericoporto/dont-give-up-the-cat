@@ -7038,6 +7038,131 @@
               </Sprite>
             </Sprites>
           </SpriteFolder>
+          <SpriteFolder Name="Smoke">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="258" Width="16" Height="16" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Sprites/smoke/smoke.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>16</ImportHeight>
+                  <ImportWidth>16</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="259" Width="16" Height="16" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Sprites/smoke/smoke.png</FileName>
+                  <OffsetX>16</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>16</ImportHeight>
+                  <ImportWidth>16</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="260" Width="16" Height="16" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Sprites/smoke/smoke.png</FileName>
+                  <OffsetX>32</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>16</ImportHeight>
+                  <ImportWidth>16</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="261" Width="16" Height="16" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Sprites/smoke/smoke.png</FileName>
+                  <OffsetX>48</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>16</ImportHeight>
+                  <ImportWidth>16</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="262" Width="16" Height="16" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Sprites/smoke/smoke.png</FileName>
+                  <OffsetX>64</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>16</ImportHeight>
+                  <ImportWidth>16</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="263" Width="16" Height="16" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Sprites/smoke/smoke.png</FileName>
+                  <OffsetX>80</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>16</ImportHeight>
+                  <ImportWidth>16</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="264" Width="16" Height="16" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Sprites/smoke/smoke.png</FileName>
+                  <OffsetX>96</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>16</ImportHeight>
+                  <ImportWidth>16</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="265" Width="16" Height="16" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Sprites/smoke/smoke.png</FileName>
+                  <OffsetX>112</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>16</ImportHeight>
+                  <ImportWidth>16</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
         </SubFolders>
         <Sprites>
           <Sprite Slot="0" Width="1" Height="1" ColorDepth="8" Resolution="Real" AlphaChannel="False">
@@ -8139,6 +8264,30 @@
                 <Author />
                 <Version />
                 <Key>245250756</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
+                <FileName>SmokeFx.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>1299727803</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>SmokeFx.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>1299727803</Key>
                 <IsHeader>False</IsHeader>
               </Script>
             </ScriptAndHeader_Script>
