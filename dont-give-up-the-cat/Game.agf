@@ -12,7 +12,7 @@
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>True</AttachDataToExe>
-      <AudioIndexer>17</AudioIndexer>
+      <AudioIndexer>19</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
@@ -8266,6 +8266,44 @@
                     <SourceFileName>Audio/SFX/Steps/step_dryleave_06.ogg</SourceFileName>
                     <Type>3</Type>
                     <FileLastModifiedDate>2022-11-13 17:15:30Z</FileLastModifiedDate>
+                  </AudioClip>
+                </AudioClips>
+                <AudioClipFolder>
+                  <DefaultBundlingType>InGameEXE</DefaultBundlingType>
+                  <DefaultPriority>Inherit</DefaultPriority>
+                  <DefaultRepeat>Inherit</DefaultRepeat>
+                  <DefaultType>3</DefaultType>
+                  <DefaultVolume>100</DefaultVolume>
+                </AudioClipFolder>
+              </AudioClipFolder>
+              <AudioClipFolder Name="Jump">
+                <SubFolders />
+                <AudioClips>
+                  <AudioClip>
+                    <BundlingType>InGameEXE</BundlingType>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <FileType>OGG</FileType>
+                    <ID>13</ID>
+                    <Index>18</Index>
+                    <ScriptName>aJump_fall</ScriptName>
+                    <SourceFileName>Audio/SFX/Jump/jump_fall.ogg</SourceFileName>
+                    <Type>3</Type>
+                    <FileLastModifiedDate>2022-11-13 19:47:27Z</FileLastModifiedDate>
+                  </AudioClip>
+                  <AudioClip>
+                    <BundlingType>InGameEXE</BundlingType>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <FileType>OGG</FileType>
+                    <ID>14</ID>
+                    <Index>19</Index>
+                    <ScriptName>aJump_pre</ScriptName>
+                    <SourceFileName>Audio/SFX/Jump/jump_pre.ogg</SourceFileName>
+                    <Type>3</Type>
+                    <FileLastModifiedDate>2022-11-13 19:46:28Z</FileLastModifiedDate>
                   </AudioClip>
                 </AudioClips>
                 <AudioClipFolder>

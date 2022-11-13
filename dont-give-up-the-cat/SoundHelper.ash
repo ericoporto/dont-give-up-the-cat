@@ -2,7 +2,7 @@
 
 /// pass n as number of sounds. Max 5.
 import void PlayRandomSound(int volume, int n, AudioClip* ac_1, AudioClip* ac_2 = 0, AudioClip* ac_3 = 0, AudioClip* ac_4 = 0, AudioClip* ac_5 = 0, AudioClip* ac_6 = 0);
-import void Sound_SFXPlay(AudioClip* sfx);
+import void Sound_SFXPlay(AudioClip* sfx, int volume = 100);
 
 import void Sound_AmbientQueueRandom(int volume, int n, AudioClip* ac_1, AudioClip* ac_2, AudioClip* ac_3 = 0, AudioClip* ac_4 = 0, AudioClip* ac_5 = 0);
 import bool Sound_IsAmbientQueued();
