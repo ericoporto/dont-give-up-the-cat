@@ -4,6 +4,7 @@ struct ScreenEffects {
   import void Init();
   import void Update();
   import void LateUpdate();
+  import void Destroy();
   
   import attribute bool On;
   import bool get_On(); // $AUTOCOMPLETEIGNORE$

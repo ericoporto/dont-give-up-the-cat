@@ -6,3 +6,4 @@
 
 import void create_depth_fog(int color, int z_span);
 import void sync_horizon(int horizon_y);
+import void destroy_fogs();
