@@ -21,3 +21,6 @@ import float ClampLoopF(float v, float min, float max);
 import float Lerp(float from, float to, float t);
 
 import int GetDistance(int x1, int y1, int x2, int y2);
+
+/// keep angle between -Pi and +Pi, rolling if needed
+import float NormalizeAngle(float theta);
