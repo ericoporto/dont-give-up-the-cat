@@ -6,11 +6,11 @@ managed struct InputParams {
   
   float TurnSpeed;
   float MaxSpeedForward;
-  float MaxSpeedForwardRoad;
-  float MaxSpeedForwardDirt;
+  float MaxSpeedForwardRunning;
   float MaxSpeedBackward;
   
-  import static InputParams* NewInputParams(float turn_speed, float max_speed_forward, float  max_speed_forward_road, float  max_speed_forward_dirt, float max_speed_backward); //$AUTOCOMPLETESTATICIGNORE$
+  import static InputParams* NewInputParams(float turn_speed, float max_speed_forward, float max_speed_forward_running, float max_speed_backward); //$AUTOCOMPLETESTATICIGNORE$
+
 };
 
 import void input_player(Mode7Object* m7o_player, InputParams* p);
