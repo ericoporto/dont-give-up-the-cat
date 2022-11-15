@@ -6975,12 +6975,12 @@
               <SpriteFolder Name="grass_dandelions">
                 <SubFolders />
                 <Sprites>
-                  <Sprite Slot="266" Width="47" Height="34" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="266" Width="47" Height="32" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>Sprites/forest/grass_thin_dandelion_01.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>34</ImportHeight>
+                      <ImportHeight>32</ImportHeight>
                       <ImportWidth>47</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
@@ -6990,12 +6990,12 @@
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="267" Width="47" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="267" Width="47" Height="25" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>Sprites/forest/grass_thin_dandelion_02.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>27</ImportHeight>
+                      <ImportHeight>25</ImportHeight>
                       <ImportWidth>47</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
