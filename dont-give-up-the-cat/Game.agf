@@ -12,7 +12,7 @@
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>True</AttachDataToExe>
-      <AudioIndexer>19</AudioIndexer>
+      <AudioIndexer>23</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
@@ -8595,6 +8595,70 @@
                     <SourceFileName>Audio/SFX/Jump/jump_pre.ogg</SourceFileName>
                     <Type>3</Type>
                     <FileLastModifiedDate>2022-11-13 19:46:28Z</FileLastModifiedDate>
+                  </AudioClip>
+                </AudioClips>
+                <AudioClipFolder>
+                  <DefaultBundlingType>InGameEXE</DefaultBundlingType>
+                  <DefaultPriority>Inherit</DefaultPriority>
+                  <DefaultRepeat>Inherit</DefaultRepeat>
+                  <DefaultType>3</DefaultType>
+                  <DefaultVolume>100</DefaultVolume>
+                </AudioClipFolder>
+              </AudioClipFolder>
+              <AudioClipFolder Name="Claw">
+                <SubFolders />
+                <AudioClips>
+                  <AudioClip>
+                    <BundlingType>InGameEXE</BundlingType>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <FileType>OGG</FileType>
+                    <ID>15</ID>
+                    <Index>20</Index>
+                    <ScriptName>aClaw_slash_01</ScriptName>
+                    <SourceFileName>Audio/SFX/Claw/claw_slash_01.ogg</SourceFileName>
+                    <Type>3</Type>
+                    <FileLastModifiedDate>2022-11-15 16:37:17Z</FileLastModifiedDate>
+                  </AudioClip>
+                  <AudioClip>
+                    <BundlingType>InGameEXE</BundlingType>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <FileType>OGG</FileType>
+                    <ID>16</ID>
+                    <Index>21</Index>
+                    <ScriptName>aClaw_slash_02</ScriptName>
+                    <SourceFileName>Audio/SFX/Claw/claw_slash_02.ogg</SourceFileName>
+                    <Type>3</Type>
+                    <FileLastModifiedDate>2022-11-15 16:40:12Z</FileLastModifiedDate>
+                  </AudioClip>
+                  <AudioClip>
+                    <BundlingType>InGameEXE</BundlingType>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <FileType>OGG</FileType>
+                    <ID>17</ID>
+                    <Index>22</Index>
+                    <ScriptName>aClaw_slash_03</ScriptName>
+                    <SourceFileName>Audio/SFX/Claw/claw_slash_03.ogg</SourceFileName>
+                    <Type>3</Type>
+                    <FileLastModifiedDate>2022-11-15 16:42:53Z</FileLastModifiedDate>
+                  </AudioClip>
+                  <AudioClip>
+                    <BundlingType>InGameEXE</BundlingType>
+                    <DefaultPriority>Inherit</DefaultPriority>
+                    <DefaultRepeat>Inherit</DefaultRepeat>
+                    <DefaultVolume>-1</DefaultVolume>
+                    <FileType>OGG</FileType>
+                    <ID>18</ID>
+                    <Index>23</Index>
+                    <ScriptName>aClaw_slash_04</ScriptName>
+                    <SourceFileName>Audio/SFX/Claw/claw_slash_04.ogg</SourceFileName>
+                    <Type>3</Type>
+                    <FileLastModifiedDate>2022-11-15 17:19:44Z</FileLastModifiedDate>
                   </AudioClip>
                 </AudioClips>
                 <AudioClipFolder>
