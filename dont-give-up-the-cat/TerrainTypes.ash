@@ -14,7 +14,8 @@ enum TerrainType {
   eTT_ClearanceHome,
   eTT_ClearanceGFlowers,
   eTT_ClearanceGHouse,
-  eTT_ClearanceGStones
+  eTT_ClearanceGStones, 
+  eTT_GrassDandelions 
 };
 
 import TerrainType GetTerrainAtRoomXY(int x, int y);
