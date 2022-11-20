@@ -20,6 +20,10 @@ import void Sound_MusicPlay(AudioClip* mus);
 import void Sound_MusicStop();
 import void Sound_MusicFadeOut(float time);
 
+import void Sound_WindPlay(AudioClip* wind);
+import void Sound_WindVolume(int volume);
+import void Sound_WindStop();
+
 // Helper modules are simple modules, made to write once, test once functionality
 // Different from utility modules, Helper modules contain game or engine SPECIFIC functionality
 //                              <<------>>
