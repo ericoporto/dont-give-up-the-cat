@@ -23,7 +23,7 @@
       <CrossfadeMusic>No</CrossfadeMusic>
       <CustomDataDir IsNull="True" />
       <CustomResolution>320,180</CustomResolution>
-      <DebugMode>True</DebugMode>
+      <DebugMode>False</DebugMode>
       <DefaultRoomMaskResolution>1</DefaultRoomMaskResolution>
       <Description xml:space="preserve">Tonight, your owner let you out in the woods</Description>
       <DeveloperName>eri0o</DeveloperName>
@@ -757,7 +757,7 @@
                 <Top>38</Top>
                 <Visible>True</Visible>
                 <Width>110</Width>
-                <ZOrder>0</ZOrder>
+                <ZOrder>3</ZOrder>
               </GUIButton>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
@@ -781,7 +781,7 @@
                 <Top>104</Top>
                 <Visible>True</Visible>
                 <Width>110</Width>
-                <ZOrder>1</ZOrder>
+                <ZOrder>4</ZOrder>
               </GUIButton>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
@@ -805,7 +805,7 @@
                 <Top>126</Top>
                 <Visible>True</Visible>
                 <Width>110</Width>
-                <ZOrder>2</ZOrder>
+                <ZOrder>5</ZOrder>
               </GUIButton>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
@@ -829,7 +829,7 @@
                 <Top>148</Top>
                 <Visible>True</Visible>
                 <Width>110</Width>
-                <ZOrder>3</ZOrder>
+                <ZOrder>6</ZOrder>
               </GUIButton>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
@@ -853,7 +853,7 @@
                 <Top>60</Top>
                 <Visible>True</Visible>
                 <Width>110</Width>
-                <ZOrder>4</ZOrder>
+                <ZOrder>7</ZOrder>
               </GUIButton>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
@@ -877,24 +877,24 @@
                 <Top>82</Top>
                 <Visible>True</Visible>
                 <Width>110</Width>
-                <ZOrder>5</ZOrder>
+                <ZOrder>8</ZOrder>
               </GUIButton>
               <GUILabel>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
-                <Font>0</Font>
-                <Height>30</Height>
+                <Font>5</Font>
+                <Height>64</Height>
                 <ID>6</ID>
-                <Left>253</Left>
+                <Left>195</Left>
                 <Locked>False</Locked>
                 <Name>label_objective</Name>
                 <Text>o</Text>
                 <TextAlignment>Right</TextAlignment>
-                <TextColor>0</TextColor>
+                <TextColor>52202</TextColor>
                 <Top>7</Top>
                 <Visible>True</Visible>
-                <Width>58</Width>
-                <ZOrder>6</ZOrder>
+                <Width>119</Width>
+                <ZOrder>11</ZOrder>
               </GUILabel>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
@@ -918,8 +918,76 @@
                 <Top>60</Top>
                 <Visible>True</Visible>
                 <Width>110</Width>
-                <ZOrder>7</ZOrder>
+                <ZOrder>9</ZOrder>
               </GUIButton>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>5</Font>
+                <Height>64</Height>
+                <ID>8</ID>
+                <Left>196</Left>
+                <Locked>False</Locked>
+                <Name>label_objective_shadow</Name>
+                <Text>o</Text>
+                <TextAlignment>Right</TextAlignment>
+                <TextColor>196</TextColor>
+                <Top>7</Top>
+                <Visible>True</Visible>
+                <Width>119</Width>
+                <ZOrder>2</ZOrder>
+              </GUILabel>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>5</Font>
+                <Height>64</Height>
+                <ID>9</ID>
+                <Left>194</Left>
+                <Locked>False</Locked>
+                <Name>label_objective_shadow2</Name>
+                <Text>o</Text>
+                <TextAlignment>Right</TextAlignment>
+                <TextColor>196</TextColor>
+                <Top>7</Top>
+                <Visible>True</Visible>
+                <Width>119</Width>
+                <ZOrder>1</ZOrder>
+              </GUILabel>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>5</Font>
+                <Height>64</Height>
+                <ID>10</ID>
+                <Left>195</Left>
+                <Locked>False</Locked>
+                <Name>label_objective_shadow3</Name>
+                <Text>o</Text>
+                <TextAlignment>Right</TextAlignment>
+                <TextColor>196</TextColor>
+                <Top>8</Top>
+                <Visible>True</Visible>
+                <Width>119</Width>
+                <ZOrder>0</ZOrder>
+              </GUILabel>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>5</Font>
+                <Height>64</Height>
+                <ID>11</ID>
+                <Left>195</Left>
+                <Locked>False</Locked>
+                <Name>label_objective_shadow4</Name>
+                <Text>o</Text>
+                <TextAlignment>Right</TextAlignment>
+                <TextColor>196</TextColor>
+                <Top>6</Top>
+                <Visible>True</Visible>
+                <Width>119</Width>
+                <ZOrder>10</ZOrder>
+              </GUILabel>
             </Controls>
           </GUIMain>
           <GUIMain>
@@ -2891,7 +2959,7 @@ stop
         <VerticalOffset>0</VerticalOffset>
       </Font>
       <Font>
-        <AutoOutlineStyle>Rounded</AutoOutlineStyle>
+        <AutoOutlineStyle>Squared</AutoOutlineStyle>
         <AutoOutlineThickness>1</AutoOutlineThickness>
         <ID>3</ID>
         <LineSpacing>0</LineSpacing>
@@ -12437,6 +12505,30 @@ stop
           </ScriptFolder>
         </SubFolders>
         <ScriptAndHeaders>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
+                <FileName>Objectives.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>851160315</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>Objectives.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>851160315</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
           <ScriptAndHeader>
             <ScriptAndHeader_Header>
               <Script>
