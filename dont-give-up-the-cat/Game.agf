@@ -2315,7 +2315,7 @@
               <Height>180</Height>
               <ID>13</ID>
               <Left>0</Left>
-              <Name>gEnd</Name>
+              <Name>gEndCatDoor</Name>
               <OnClick />
               <PopupStyle>Normal</PopupStyle>
               <PopupYPos>0</PopupYPos>
