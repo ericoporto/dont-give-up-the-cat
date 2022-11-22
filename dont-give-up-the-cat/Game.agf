@@ -1916,13 +1916,13 @@
                 <Font>4</Font>
                 <Height>24</Height>
                 <ID>1</ID>
-                <Left>65</Left>
+                <Left>66</Left>
                 <Locked>False</Locked>
                 <Name>Label1</Name>
                 <Text xml:space="preserve">Sound Volume</Text>
                 <TextAlignment>Center</TextAlignment>
                 <TextColor>59164</TextColor>
-                <Top>17</Top>
+                <Top>16</Top>
                 <Visible>True</Visible>
                 <Width>200</Width>
                 <ZOrder>1</ZOrder>
@@ -2074,7 +2074,7 @@
                 <Height>22</Height>
                 <ID>0</ID>
                 <Image>0</Image>
-                <Left>87</Left>
+                <Left>105</Left>
                 <Locked>True</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>menu_ctrl_btn_back</Name>
@@ -2084,10 +2084,75 @@
                 <Text>Back</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>136</Top>
+                <Top>153</Top>
                 <Visible>True</Visible>
                 <Width>110</Width>
                 <ZOrder>0</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>4</Font>
+                <Height>22</Height>
+                <ID>1</ID>
+                <Image>0</Image>
+                <Left>73</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>menu_ctrl_btn_imyax_t</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>btn_menu_any_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text xml:space="preserve">\[x] Invert Mouse Y Axis</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>22</Top>
+                <Visible>True</Visible>
+                <Width>174</Width>
+                <ZOrder>1</ZOrder>
+              </GUIButton>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>4</Font>
+                <Height>24</Height>
+                <ID>2</ID>
+                <Left>2</Left>
+                <Locked>False</Locked>
+                <Name>Label2</Name>
+                <Text>Controls</Text>
+                <TextAlignment>Center</TextAlignment>
+                <TextColor>59164</TextColor>
+                <Top>2</Top>
+                <Visible>True</Visible>
+                <Width>316</Width>
+                <ZOrder>2</ZOrder>
+              </GUILabel>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>4</Font>
+                <Height>22</Height>
+                <ID>3</ID>
+                <Image>0</Image>
+                <Left>73</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>menu_ctrl_btn_imyax_f</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>btn_menu_any_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text xml:space="preserve">\[ ] Invert Mouse Y Axis</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>22</Top>
+                <Visible>True</Visible>
+                <Width>174</Width>
+                <ZOrder>3</ZOrder>
               </GUIButton>
             </Controls>
           </GUIMain>
@@ -3308,6 +3373,11 @@ stop
         <GlobalVariable>
           <DefaultValue>false</DefaultValue>
           <Name>bool_block_menu</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>bool_mouse_invert_y_axis</Name>
           <Type>bool</Type>
         </GlobalVariable>
       </Variables>
