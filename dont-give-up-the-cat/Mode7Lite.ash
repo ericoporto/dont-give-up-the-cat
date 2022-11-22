@@ -128,9 +128,7 @@ struct Mode7 {
   protected DynamicSprite* _empty;
     
   // private methods
-  import protected void _DrawGroundSprites(DrawingSurface* ds, float cam_y, int angle, int ox, int oy);
   import protected void _DrawTrack3D();
-  import protected void _GenerateTrackSprite();
 };
 
 struct Mode7World extends Mode7 {
@@ -145,10 +143,8 @@ struct Mode7World extends Mode7 {
   import void RemoveAllsObjects();
   /// Returns the angle in degrees between the camera and whatever angle is set to a specific object. Useful when you want to change the graphic of an object based on their relative angle.
   import int GetAngleObjectAndCamera(Mode7Object* m7obj);
-  /// Update the screen transform of all objects world positions to their screen positions. You must call it before drawing any objects!
-  import void UpdateObjects();
-  
-  import void DrawObjectsOverlay();
+  /// Update the screen transform of all objects world positions to their screen positions and draw everything
+  import void UpdateAndDrawObjects();
   
   /// Draws the ground sprite and the objects over it, in the screen sprite.
   import void DrawWorld();
