@@ -12,7 +12,7 @@
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>True</AttachDataToExe>
-      <AudioIndexer>27</AudioIndexer>
+      <AudioIndexer>28</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
@@ -60,7 +60,7 @@
       <OptimizeSpriteStorage>True</OptimizeSpriteStorage>
       <PixelPerfect>True</PixelPerfect>
       <PlaySoundOnScore>0</PlaySoundOnScore>
-      <ReleaseDate>2022-11-08</ReleaseDate>
+      <ReleaseDate>2022-11-22</ReleaseDate>
       <RenderAtScreenResolution>UserDefined</RenderAtScreenResolution>
       <RoomTransition>FadeOutAndIn</RoomTransition>
       <RunGameLoopsWhileDialogOptionsDisplayed>False</RunGameLoopsWhileDialogOptionsDisplayed>
@@ -686,6 +686,10 @@
           <UnloadedRoom>
             <Description>Intro</Description>
             <Number>3</Number>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Description>Ending</Description>
+            <Number>4</Number>
           </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
@@ -2324,6 +2328,66 @@
               <Visible>False</Visible>
               <Width>320</Width>
               <ZOrder>19999</ZOrder>
+            </NormalGUI>
+            <Controls />
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <BorderColor>0</BorderColor>
+              <Clickable>True</Clickable>
+              <Height>180</Height>
+              <ID>14</ID>
+              <Left>0</Left>
+              <Name>gCreditsCall</Name>
+              <OnClick />
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <Top>0</Top>
+              <Transparency>0</Transparency>
+              <Visible>False</Visible>
+              <Width>320</Width>
+              <ZOrder>20001</ZOrder>
+            </NormalGUI>
+            <Controls>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>4</Font>
+                <Height>80</Height>
+                <ID>0</ID>
+                <Left>0</Left>
+                <Locked>False</Locked>
+                <Name>credits_call_label</Name>
+                <Text xml:space="preserve">Created by Erico Porto</Text>
+                <TextAlignment>Center</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Top>80</Top>
+                <Visible>True</Visible>
+                <Width>320</Width>
+                <ZOrder>0</ZOrder>
+              </GUILabel>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <BackgroundColor>196</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <BorderColor>196</BorderColor>
+              <Clickable>True</Clickable>
+              <Height>180</Height>
+              <ID>15</ID>
+              <Left>0</Left>
+              <Name>gEndingDark</Name>
+              <OnClick />
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <Top>0</Top>
+              <Transparency>0</Transparency>
+              <Visible>False</Visible>
+              <Width>320</Width>
+              <ZOrder>20000</ZOrder>
             </NormalGUI>
             <Controls />
           </GUIMain>
@@ -4301,13 +4365,13 @@ stop]]></Script>
           <SpriteFolder Name="Home">
             <SubFolders />
             <Sprites>
-              <Sprite Slot="39" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="39" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0000.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4316,13 +4380,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="40" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="40" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0001.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4331,13 +4395,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="41" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="41" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0002.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4346,13 +4410,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="42" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="42" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0003.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4361,13 +4425,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="43" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="43" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0004.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4376,13 +4440,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="44" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="44" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0005.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4391,13 +4455,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="45" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="45" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0006.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4406,13 +4470,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="46" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="46" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0007.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4421,13 +4485,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="47" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="47" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0008.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4436,13 +4500,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="48" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="48" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0009.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4451,13 +4515,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="49" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="49" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0010.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4466,13 +4530,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="50" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="50" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0011.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4481,13 +4545,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="51" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="51" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0012.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4496,13 +4560,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="52" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="52" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0013.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4511,13 +4575,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="53" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="53" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0014.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4526,13 +4590,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="54" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="54" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0015.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4541,13 +4605,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="55" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="55" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0016.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4556,13 +4620,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="56" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="56" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0017.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4571,13 +4635,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="57" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="57" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0018.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4586,13 +4650,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="58" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="58" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0019.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4601,13 +4665,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="59" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="59" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0020.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4616,13 +4680,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="60" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="60" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0021.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4631,13 +4695,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="61" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="61" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0022.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4646,13 +4710,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="62" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="62" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0023.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4661,13 +4725,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="63" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="63" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0024.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4676,13 +4740,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="64" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="64" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0025.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4691,13 +4755,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="65" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="65" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0026.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4706,13 +4770,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="66" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="66" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0027.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4721,13 +4785,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="67" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="67" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0028.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4736,13 +4800,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="68" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="68" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0029.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4751,13 +4815,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="69" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="69" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0030.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4766,13 +4830,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="70" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="70" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0031.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4781,13 +4845,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="71" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="71" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0032.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4796,13 +4860,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="72" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="72" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0033.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4811,13 +4875,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="73" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="73" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0034.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4826,13 +4890,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="74" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="74" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0035.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4841,13 +4905,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="75" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="75" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0036.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4856,13 +4920,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="76" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="76" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0037.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4871,13 +4935,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="77" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="77" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0038.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4886,13 +4950,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="78" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="78" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0039.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4901,13 +4965,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="79" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="79" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0040.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4916,13 +4980,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="80" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="80" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0041.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4931,13 +4995,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="81" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="81" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0042.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4946,13 +5010,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="82" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="82" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0043.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4961,13 +5025,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="83" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="83" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0044.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4976,13 +5040,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="84" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="84" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0045.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -4991,13 +5055,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="85" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="85" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0046.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5006,13 +5070,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="86" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="86" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0047.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5021,13 +5085,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="87" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="87" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0048.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5036,13 +5100,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="88" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="88" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0049.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5051,13 +5115,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="89" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="89" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0050.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5066,13 +5130,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="90" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="90" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0051.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5081,13 +5145,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="91" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="91" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0052.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5096,13 +5160,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="92" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="92" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0053.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5111,13 +5175,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="93" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="93" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0054.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5126,13 +5190,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="94" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="94" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0055.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5141,13 +5205,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="95" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="95" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0056.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5156,13 +5220,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="96" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="96" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0057.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5171,13 +5235,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="97" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="97" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0058.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5186,13 +5250,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="98" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="98" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0059.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5201,13 +5265,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="99" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="99" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0060.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5216,13 +5280,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="100" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="100" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0061.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5231,13 +5295,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="101" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="101" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0062.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5246,13 +5310,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="102" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="102" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0063.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5261,13 +5325,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="103" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="103" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0064.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5276,13 +5340,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="104" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="104" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0065.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5291,13 +5355,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="105" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="105" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0066.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5306,13 +5370,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="106" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="106" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0067.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5321,13 +5385,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="107" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="107" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0068.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5336,13 +5400,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="108" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="108" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0069.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5351,13 +5415,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="109" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="109" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0070.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5366,13 +5430,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="110" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="110" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0071.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5381,13 +5445,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="111" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="111" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0072.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5396,13 +5460,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="112" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="112" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0073.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5411,13 +5475,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="113" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="113" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0074.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5426,13 +5490,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="114" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="114" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0075.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5441,13 +5505,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="115" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="115" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0076.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5456,13 +5520,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="116" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="116" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0077.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5471,13 +5535,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="117" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="117" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0078.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5486,13 +5550,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="118" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="118" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0079.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5501,13 +5565,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="119" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="119" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0080.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5516,13 +5580,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="120" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="120" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0081.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5531,13 +5595,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="121" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="121" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0082.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5546,13 +5610,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="122" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="122" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0083.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5561,13 +5625,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="123" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="123" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0084.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5576,13 +5640,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="124" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="124" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0085.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5591,13 +5655,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="125" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="125" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0086.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5606,13 +5670,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="126" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="126" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0087.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5621,13 +5685,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="127" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="127" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0088.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5636,13 +5700,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="128" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="128" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0089.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5651,13 +5715,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="129" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="129" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0090.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5666,13 +5730,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="130" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="130" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0091.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5681,13 +5745,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="131" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="131" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0092.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5696,13 +5760,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="132" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="132" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0093.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5711,13 +5775,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="133" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="133" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0094.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5726,13 +5790,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="134" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="134" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0095.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5741,13 +5805,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="135" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="135" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0096.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5756,13 +5820,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="136" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="136" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0097.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5771,13 +5835,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="137" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="137" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0098.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5786,13 +5850,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="138" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="138" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0099.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5801,13 +5865,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="139" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="139" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0100.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5816,13 +5880,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="140" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="140" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0101.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5831,13 +5895,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="141" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="141" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0102.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5846,13 +5910,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="142" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="142" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0103.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5861,13 +5925,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="143" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="143" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0104.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5876,13 +5940,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="144" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="144" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0105.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5891,13 +5955,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="145" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="145" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0106.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5906,13 +5970,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="146" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="146" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0107.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5921,13 +5985,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="147" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="147" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0108.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5936,13 +6000,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="148" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="148" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0109.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5951,13 +6015,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="149" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="149" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0110.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5966,13 +6030,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="150" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="150" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0111.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5981,13 +6045,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="151" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="151" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0112.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5996,13 +6060,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="152" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="152" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0113.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6011,13 +6075,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="153" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="153" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0114.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6026,13 +6090,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="154" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="154" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0115.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6041,13 +6105,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="155" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="155" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0116.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6056,13 +6120,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="156" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="156" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0117.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6071,13 +6135,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="157" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="157" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0118.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6086,13 +6150,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="158" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="158" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0119.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6101,13 +6165,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="159" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="159" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0120.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6116,13 +6180,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="160" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="160" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0121.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6131,13 +6195,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="161" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="161" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0122.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6146,13 +6210,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="162" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="162" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0123.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6161,13 +6225,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="163" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="163" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0124.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6176,13 +6240,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="164" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="164" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0125.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6191,13 +6255,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="165" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="165" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0126.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6206,13 +6270,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="166" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="166" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0127.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6221,13 +6285,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="167" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="167" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0128.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6236,13 +6300,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="168" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="168" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0129.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6251,13 +6315,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="169" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="169" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0130.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6266,13 +6330,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="170" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="170" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0131.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6281,13 +6345,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="171" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="171" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0132.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6296,13 +6360,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="172" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="172" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0133.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6311,13 +6375,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="173" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="173" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0134.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6326,13 +6390,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="174" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="174" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0135.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6341,13 +6405,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="175" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="175" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0136.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6356,13 +6420,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="176" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="176" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0137.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6371,13 +6435,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="177" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="177" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0138.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6386,13 +6450,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="178" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="178" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0139.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6401,13 +6465,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="179" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="179" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0140.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6416,13 +6480,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="180" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="180" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0141.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6431,13 +6495,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="181" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="181" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0142.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6446,13 +6510,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="182" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="182" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0143.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6461,13 +6525,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="183" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="183" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0144.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6476,13 +6540,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="184" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="184" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0145.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6491,13 +6555,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="185" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="185" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0146.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6506,13 +6570,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="186" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="186" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0147.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6521,13 +6585,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="187" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="187" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0148.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6536,13 +6600,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="188" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="188" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0149.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6551,13 +6615,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="189" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="189" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0150.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6566,13 +6630,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="190" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="190" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0151.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6581,13 +6645,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="191" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="191" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0152.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6596,13 +6660,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="192" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="192" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0153.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6611,13 +6675,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="193" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="193" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0154.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6626,13 +6690,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="194" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="194" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0155.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6641,13 +6705,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="195" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="195" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0156.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6656,13 +6720,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="196" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="196" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0157.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6671,13 +6735,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="197" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="197" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0158.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6686,13 +6750,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="198" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="198" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0159.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6701,13 +6765,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="199" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="199" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0160.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6716,13 +6780,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="200" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="200" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0161.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6731,13 +6795,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="201" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="201" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0162.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6746,13 +6810,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="202" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="202" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0163.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6761,13 +6825,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="203" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="203" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0164.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6776,13 +6840,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="204" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="204" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0165.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6791,13 +6855,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="205" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="205" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0166.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6806,13 +6870,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="206" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="206" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0167.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6821,13 +6885,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="207" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="207" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0168.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6836,13 +6900,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="208" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="208" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0169.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6851,13 +6915,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="209" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="209" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0170.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6866,13 +6930,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="210" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="210" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0171.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6881,13 +6945,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="211" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="211" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0172.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6896,13 +6960,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="212" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="212" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0173.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6911,13 +6975,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="213" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="213" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0174.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6926,13 +6990,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="214" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="214" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0175.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6941,13 +7005,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="215" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="215" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0176.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6956,13 +7020,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="216" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="216" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0177.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6971,13 +7035,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="217" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="217" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0178.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -6986,13 +7050,13 @@ stop]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="218" Width="312" Height="195" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="218" Width="104" Height="65" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>Sprites/home/home_0179.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>195</ImportHeight>
-                  <ImportWidth>312</ImportWidth>
+                  <ImportHeight>65</ImportHeight>
+                  <ImportWidth>104</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -13045,6 +13109,30 @@ stop]]></Script>
           <ScriptAndHeader>
             <ScriptAndHeader_Header>
               <Script>
+                <FileName>ExtraHacks.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>515568361</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>ExtraHacks.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>515568361</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
                 <FileName>GlobalScript.ash</FileName>
                 <Name />
                 <Description />
@@ -13100,6 +13188,19 @@ stop]]></Script>
                 <SourceFileName>Audio/Music/music_walking_around.ogg</SourceFileName>
                 <Type>2</Type>
                 <FileLastModifiedDate>2022-11-20 20:34:03Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>OGG</FileType>
+                <ID>23</ID>
+                <Index>28</Index>
+                <ScriptName>aMusic_ending</ScriptName>
+                <SourceFileName>Audio/Music/music_ending.ogg</SourceFileName>
+                <Type>2</Type>
+                <FileLastModifiedDate>2022-11-22 22:25:01Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
