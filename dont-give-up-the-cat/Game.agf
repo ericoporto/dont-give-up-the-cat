@@ -12,7 +12,7 @@
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>True</AttachDataToExe>
-      <AudioIndexer>28</AudioIndexer>
+      <AudioIndexer>30</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
@@ -2059,7 +2059,7 @@
               <ID>8</ID>
               <Left>0</Left>
               <Name>gMenu_Controls</Name>
-              <OnClick />
+              <OnClick>gMenu_Controls_OnClick</OnClick>
               <PopupStyle>PopupModal</PopupStyle>
               <PopupYPos>0</PopupYPos>
               <Top>0</Top>
@@ -2158,6 +2158,324 @@
                 <Width>174</Width>
                 <ZOrder>3</ZOrder>
               </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>4</Font>
+                <Height>19</Height>
+                <ID>4</ID>
+                <Image>456</Image>
+                <Left>19</Left>
+                <Locked>True</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>menu_ctrl_btn_arrl</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>btn_menu_any_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text>A</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>58833</TextColor>
+                <Top>73</Top>
+                <Visible>True</Visible>
+                <Width>17</Width>
+                <ZOrder>4</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>4</Font>
+                <Height>19</Height>
+                <ID>5</ID>
+                <Image>456</Image>
+                <Left>37</Left>
+                <Locked>True</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>menu_ctrl_btn_arrd</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>btn_menu_any_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text>S</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>58833</TextColor>
+                <Top>73</Top>
+                <Visible>True</Visible>
+                <Width>17</Width>
+                <ZOrder>5</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>4</Font>
+                <Height>19</Height>
+                <ID>6</ID>
+                <Image>456</Image>
+                <Left>55</Left>
+                <Locked>True</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>menu_ctrl_btn_arrr</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>btn_menu_any_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text>D</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>58833</TextColor>
+                <Top>73</Top>
+                <Visible>True</Visible>
+                <Width>17</Width>
+                <ZOrder>6</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>4</Font>
+                <Height>19</Height>
+                <ID>7</ID>
+                <Image>456</Image>
+                <Left>37</Left>
+                <Locked>True</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>menu_ctrl_btn_arru</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>btn_menu_any_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text>W</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>58833</TextColor>
+                <Top>53</Top>
+                <Visible>True</Visible>
+                <Width>17</Width>
+                <ZOrder>7</ZOrder>
+              </GUIButton>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>3</Font>
+                <Height>16</Height>
+                <ID>8</ID>
+                <Left>78</Left>
+                <Locked>False</Locked>
+                <Name>Label3</Name>
+                <Text>Walk</Text>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>58833</TextColor>
+                <Top>73</Top>
+                <Visible>True</Visible>
+                <Width>39</Width>
+                <ZOrder>8</ZOrder>
+              </GUILabel>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>19</Height>
+                <ID>9</ID>
+                <Image>457</Image>
+                <Left>231</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>menu_ctrl_btn_run</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>btn_menu_any_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text />
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>64</Top>
+                <Visible>True</Visible>
+                <Width>35</Width>
+                <ZOrder>9</ZOrder>
+              </GUIButton>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>3</Font>
+                <Height>16</Height>
+                <ID>10</ID>
+                <Left>178</Left>
+                <Locked>False</Locked>
+                <Name>Label4</Name>
+                <Text>Run</Text>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>58833</TextColor>
+                <Top>73</Top>
+                <Visible>True</Visible>
+                <Width>39</Width>
+                <ZOrder>10</ZOrder>
+              </GUILabel>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>19</Height>
+                <ID>11</ID>
+                <Image>458</Image>
+                <Left>132</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>menu_ctrl_btn_jump</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>btn_menu_any_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text />
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>64</Top>
+                <Visible>True</Visible>
+                <Width>40</Width>
+                <ZOrder>11</ZOrder>
+              </GUIButton>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>3</Font>
+                <Height>16</Height>
+                <ID>12</ID>
+                <Left>272</Left>
+                <Locked>False</Locked>
+                <Name>Label5</Name>
+                <Text>Jump</Text>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>58833</TextColor>
+                <Top>73</Top>
+                <Visible>True</Visible>
+                <Width>39</Width>
+                <ZOrder>12</ZOrder>
+              </GUILabel>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>41</Height>
+                <ID>13</ID>
+                <Image>459</Image>
+                <Left>28</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Button1</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>btn_menu_any_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text xml:space="preserve">New Button</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>102</Top>
+                <Visible>True</Visible>
+                <Width>35</Width>
+                <ZOrder>13</ZOrder>
+              </GUIButton>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>3</Font>
+                <Height>22</Height>
+                <ID>14</ID>
+                <Left>78</Left>
+                <Locked>False</Locked>
+                <Name>Label6</Name>
+                <Text>Look</Text>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>58833</TextColor>
+                <Top>112</Top>
+                <Visible>True</Visible>
+                <Width>38</Width>
+                <ZOrder>14</ZOrder>
+              </GUILabel>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>41</Height>
+                <ID>15</ID>
+                <Image>460</Image>
+                <Left>132</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Button2</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>btn_menu_any_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text xml:space="preserve">New Button</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>102</Top>
+                <Visible>True</Visible>
+                <Width>35</Width>
+                <ZOrder>15</ZOrder>
+              </GUIButton>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>3</Font>
+                <Height>21</Height>
+                <ID>16</ID>
+                <Left>178</Left>
+                <Locked>False</Locked>
+                <Name>Label7</Name>
+                <Text>Scratch</Text>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>58833</TextColor>
+                <Top>112</Top>
+                <Visible>True</Visible>
+                <Width>52</Width>
+                <ZOrder>16</ZOrder>
+              </GUILabel>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>19</Height>
+                <ID>17</ID>
+                <Image>461</Image>
+                <Left>241</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>menu_ctrl_btn_men</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>btn_menu_any_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text />
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>102</Top>
+                <Visible>True</Visible>
+                <Width>25</Width>
+                <ZOrder>17</ZOrder>
+              </GUIButton>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>3</Font>
+                <Height>17</Height>
+                <ID>18</ID>
+                <Left>272</Left>
+                <Locked>False</Locked>
+                <Name>Label8</Name>
+                <Text>Menu</Text>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>58833</TextColor>
+                <Top>112</Top>
+                <Visible>True</Visible>
+                <Width>38</Width>
+                <ZOrder>18</ZOrder>
+              </GUILabel>
             </Controls>
           </GUIMain>
           <GUIMain>
@@ -2908,13 +3226,18 @@ stop]]></Script>
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-GhostForgotten: You... found me.
-GhostForgotten: I have always been afraid of being forgotten...
+GhostForgotten: Yes, child... 
+GhostForgotten: Oh, you see me?
+GhostForgotten: I hoped I wasn't forgotten.
+GhostForgotten: But I don't remember myself... 
+GhostForgotten: How did I look when I was young?
+GhostForgotten: Back then, I was afraid to be far from home.
+GhostForgotten: I can't see home anymore.
   Wait(SecondsToLoops(0.5));
-GhostForgotten: Away from home.
-  Wait(SecondsToLoops(0.5));
-GhostForgotten: I actually forgot myself...
-GhostForgotten: I wonder if I looked like you. Maybe slimmer.
+GhostForgotten: I can't see anymore...
+  Wait(SecondsToLoops(0.8));
+GhostForgotten: Oh, you can guide me home?
+GhostForgotten: Yes child, please take me there.
   if(!bool_found_ghost_floatingcat && !bool_found_ghost_standingcat) {
   Wait(SecondsToLoops(0.5));
 GhostForgotten: There are others deep in the forest too.
@@ -2967,6 +3290,7 @@ GhostFloatingcat: Awesome!
 GhostFloatingcat: You haven't found the others yet?
 GhostFloatingcat: We need them too!
   }
+GhostFloatingcat: You breathing weird. Are you good?
   bool_in_dialog = false;
 stop
 ]]></Script>
@@ -2980,7 +3304,7 @@ stop
 @S  // Dialog startup entry point
 EndNarrator: Blue! There you are!
 EndNarrator: I was worried about you.
-EndNarrator: Come in Blue.
+EndNarrator: Come in little Blue.
   bool_in_dialog = false;
 stop]]></Script>
             <DialogOptions />
@@ -3748,6 +4072,106 @@ stop]]></Script>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>15</ImportHeight>
                       <ImportWidth>39</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
+              <SpriteFolder Name="Keys">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="456" Width="17" Height="19" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Sprites/GUI/menu/Keys/keyboard_key.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>19</ImportHeight>
+                      <ImportWidth>17</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="457" Width="35" Height="19" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Sprites/GUI/menu/Keys/keyboard_key_shift.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>19</ImportHeight>
+                      <ImportWidth>35</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="458" Width="40" Height="19" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Sprites/GUI/menu/Keys/keyboard_key_space.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>19</ImportHeight>
+                      <ImportWidth>40</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="461" Width="25" Height="19" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Sprites/GUI/menu/Keys/keyboard_key_esc.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>19</ImportHeight>
+                      <ImportWidth>25</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
+              <SpriteFolder Name="Mouse">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="459" Width="35" Height="41" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Sprites/GUI/menu/Mouse/mouse_move.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>41</ImportHeight>
+                      <ImportWidth>35</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="460" Width="35" Height="41" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Sprites/GUI/menu/Mouse/mouse_left_click.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>41</ImportHeight>
+                      <ImportWidth>35</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -13109,6 +13533,30 @@ stop]]></Script>
           <ScriptAndHeader>
             <ScriptAndHeader_Header>
               <Script>
+                <FileName>BreathingSfx.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>655712343</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>BreathingSfx.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>655712343</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
                 <FileName>ExtraHacks.ash</FileName>
                 <Name />
                 <Description />
@@ -13580,6 +14028,31 @@ stop]]></Script>
               <DefaultVolume>40</DefaultVolume>
             </AudioClipFolder>
           </AudioClipFolder>
+          <AudioClipFolder Name="Breath">
+            <SubFolders />
+            <AudioClips>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>OGG</FileType>
+                <ID>24</ID>
+                <Index>30</Index>
+                <ScriptName>aCat_breath</ScriptName>
+                <SourceFileName>Audio/Breath/cat_breath.ogg</SourceFileName>
+                <Type>6</Type>
+                <FileLastModifiedDate>2022-11-24 20:18:29Z</FileLastModifiedDate>
+              </AudioClip>
+            </AudioClips>
+            <AudioClipFolder>
+              <DefaultBundlingType>InGameEXE</DefaultBundlingType>
+              <DefaultPriority>Inherit</DefaultPriority>
+              <DefaultRepeat>True</DefaultRepeat>
+              <DefaultType>6</DefaultType>
+              <DefaultVolume>100</DefaultVolume>
+            </AudioClipFolder>
+          </AudioClipFolder>
         </SubFolders>
         <AudioClips />
         <AudioClipFolder>
@@ -13630,6 +14103,14 @@ stop]]></Script>
         <MaxChannels>1</MaxChannels>
         <Name>Wind</Name>
         <TypeID>5</TypeID>
+        <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
+      </AudioClipType>
+      <AudioClipType>
+        <BackwardsCompatibilityType>False</BackwardsCompatibilityType>
+        <CrossfadeClips>No</CrossfadeClips>
+        <MaxChannels>1</MaxChannels>
+        <Name>Breath</Name>
+        <TypeID>6</TypeID>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
       </AudioClipType>
     </AudioClipTypes>
