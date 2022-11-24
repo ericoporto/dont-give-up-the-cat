@@ -24,6 +24,11 @@ import void Sound_WindPlay(AudioClip* wind);
 import void Sound_WindVolume(int volume);
 import void Sound_WindStop();
 
+import void Sound_BreathPlay(AudioClip* breath_clip);
+import void Sound_BreathAdjust(int volume, int speed);
+import void Sound_BreathStop();
+import void Sound_BreathSetRandomInitTime();
+
 // Helper modules are simple modules, made to write once, test once functionality
 // Different from utility modules, Helper modules contain game or engine SPECIFIC functionality
 //                              <<------>>
