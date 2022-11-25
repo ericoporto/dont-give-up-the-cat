@@ -2497,12 +2497,12 @@
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
                 <Font>5</Font>
-                <Height>38</Height>
+                <Height>48</Height>
                 <ID>19</ID>
                 <Left>19</Left>
                 <Locked>False</Locked>
                 <Name>Label9</Name>
-                <Text xml:space="preserve">hold while walking[[CAPS LOCK locks run</Text>
+                <Text xml:space="preserve">hold while walking[CAPS LOCK locks run</Text>
                 <TextAlignment>Center</TextAlignment>
                 <TextColor>58833</TextColor>
                 <Top>129</Top>
@@ -3574,7 +3574,7 @@ stop]]></Script>
         <Name>k812j</Name>
         <OutlineFont>0</OutlineFont>
         <OutlineStyle>None</OutlineStyle>
-        <PointSize>12</PointSize>
+        <PointSize>16</PointSize>
         <SizeMultiplier>1</SizeMultiplier>
         <SourceFilename>Fonts/k8x12j.ttf</SourceFilename>
         <TTFMetricsFixup>None</TTFMetricsFixup>
