@@ -2047,6 +2047,23 @@
                 <Width>173</Width>
                 <ZOrder>6</ZOrder>
               </GUIButton>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>5</Font>
+                <Height>15</Height>
+                <ID>7</ID>
+                <Left>72</Left>
+                <Locked>False</Locked>
+                <Name>Label11</Name>
+                <Text xml:space="preserve">When shown, objectives appear only in menu</Text>
+                <TextAlignment>Center</TextAlignment>
+                <TextColor>58833</TextColor>
+                <Top>120</Top>
+                <Visible>True</Visible>
+                <Width>175</Width>
+                <ZOrder>7</ZOrder>
+              </GUILabel>
             </Controls>
           </GUIMain>
           <GUIMain>
