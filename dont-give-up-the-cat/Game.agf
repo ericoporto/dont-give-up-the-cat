@@ -3849,7 +3849,7 @@ stop]]></Script>
           <Type>bool</Type>
         </GlobalVariable>
         <GlobalVariable>
-          <DefaultValue>false</DefaultValue>
+          <DefaultValue>true</DefaultValue>
           <Name>bool_show_game_objectives</Name>
           <Type>bool</Type>
         </GlobalVariable>
