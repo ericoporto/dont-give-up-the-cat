@@ -2,7 +2,7 @@
 
 Tonight, your owner let you out in the woods
 
-![](cover.png)
+![](images/cover.png)
 
 ## Renderer system
 
