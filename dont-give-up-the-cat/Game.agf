@@ -2280,7 +2280,7 @@
                 <Height>19</Height>
                 <ID>9</ID>
                 <Image>457</Image>
-                <Left>231</Left>
+                <Left>29</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>menu_ctrl_btn_run</Name>
@@ -2290,7 +2290,7 @@
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>64</Top>
+                <Top>102</Top>
                 <Visible>True</Visible>
                 <Width>35</Width>
                 <ZOrder>9</ZOrder>
@@ -2301,13 +2301,13 @@
                 <Font>3</Font>
                 <Height>16</Height>
                 <ID>10</ID>
-                <Left>178</Left>
+                <Left>78</Left>
                 <Locked>False</Locked>
                 <Name>Label4</Name>
                 <Text>Run</Text>
                 <TextAlignment>Left</TextAlignment>
                 <TextColor>58833</TextColor>
-                <Top>73</Top>
+                <Top>112</Top>
                 <Visible>True</Visible>
                 <Width>39</Width>
                 <ZOrder>10</ZOrder>
@@ -2321,7 +2321,7 @@
                 <Height>19</Height>
                 <ID>11</ID>
                 <Image>458</Image>
-                <Left>132</Left>
+                <Left>226</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>menu_ctrl_btn_jump</Name>
@@ -2331,7 +2331,7 @@
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>64</Top>
+                <Top>65</Top>
                 <Visible>True</Visible>
                 <Width>40</Width>
                 <ZOrder>11</ZOrder>
@@ -2362,7 +2362,7 @@
                 <Height>41</Height>
                 <ID>13</ID>
                 <Image>459</Image>
-                <Left>28</Left>
+                <Left>132</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>Button1</Name>
@@ -2372,7 +2372,7 @@
                 <Text xml:space="preserve">New Button</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>102</Top>
+                <Top>58</Top>
                 <Visible>True</Visible>
                 <Width>35</Width>
                 <ZOrder>13</ZOrder>
@@ -2383,13 +2383,13 @@
                 <Font>3</Font>
                 <Height>22</Height>
                 <ID>14</ID>
-                <Left>78</Left>
+                <Left>178</Left>
                 <Locked>False</Locked>
                 <Name>Label6</Name>
                 <Text>Look</Text>
                 <TextAlignment>Left</TextAlignment>
                 <TextColor>58833</TextColor>
-                <Top>112</Top>
+                <Top>73</Top>
                 <Visible>True</Visible>
                 <Width>38</Width>
                 <ZOrder>14</ZOrder>
@@ -2475,6 +2475,40 @@
                 <Visible>True</Visible>
                 <Width>38</Width>
                 <ZOrder>18</ZOrder>
+              </GUILabel>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>5</Font>
+                <Height>38</Height>
+                <ID>19</ID>
+                <Left>19</Left>
+                <Locked>False</Locked>
+                <Name>Label9</Name>
+                <Text xml:space="preserve">hold while walking[[CAPS LOCK locks run</Text>
+                <TextAlignment>Center</TextAlignment>
+                <TextColor>58833</TextColor>
+                <Top>129</Top>
+                <Visible>True</Visible>
+                <Width>84</Width>
+                <ZOrder>19</ZOrder>
+              </GUILabel>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>5</Font>
+                <Height>16</Height>
+                <ID>20</ID>
+                <Left>162</Left>
+                <Locked>False</Locked>
+                <Name>Label10</Name>
+                <Text xml:space="preserve">move mouse</Text>
+                <TextAlignment>Center</TextAlignment>
+                <TextColor>58833</TextColor>
+                <Top>84</Top>
+                <Visible>True</Visible>
+                <Width>62</Width>
+                <ZOrder>20</ZOrder>
               </GUILabel>
             </Controls>
           </GUIMain>
