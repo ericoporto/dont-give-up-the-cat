@@ -2,7 +2,8 @@
 
 Tonight, your owner let you out in the woods
 
-![](images/cover.png)
+![](images/gcover.png)
+
 
 ## Renderer system
 
@@ -13,3 +14,24 @@ The Mode7Lite module has my [mode7](https://github.com/ericoporto/mode7) module,
 Adding or removing objects from this 3D world only considers it for rendering, but removing them doesn't delete them if they are referenced elsewhere, as AGS Script is garbage collected. The mode7 renderer would have to iterate through all objects per frame, and in a reasonably big world this could get expensive. To solve this, we will have to divide the world in smaller parts and introduce a new component to handle this, the ZoneManager.
 
 The ZoneManager divides the world in a grid, and inserts the player in the center of a 3x3 selection of cells in this grid. These 9 cells are considered active and other cells are considered inactive. Only active cells are considered when rendering. When the player switches from a cell space to another, all objects gets removed from the Mode7Lite considered world, and then the objects in the current active cells are readded. This allows the player to rotate its head around more fluidly, as there will be a part of the world around it.
+
+
+## Credits
+
+- Game by Érico Porto
+- Music by Jon Paul Sapsford
+- Ghosts, graves and icon by Haloa
+- Gameplay Testing by Morgan Willcock, Heltenjon and Newwaveburritos
+- AGS ​Script Modules
+  - Tween by ​Edmundito
+  - ​​Timer and Typed Text by  ​Crimson Wizard
+- Additional assets from itch.io, opengameart and freesound
+  - Clouds: ansimuz - Sunnyland,  recolored
+  - Forest trees, stones, flowers and base palette: Trixie (trixelized) - STRINGSTAR FIELDS
+  - House: Lanthanum - 3D Model House (PicoCAD),  recolored
+  - Save cat: kotnaszynce - kitka.gif,  recolored+resized
+  - Smoke: KnoblePersona - Smoke & Fire Animated Particle
+  - Title Screen Cat: Ben - Camp Cat (PicoCAD), modified
+  - Forest crickets and atmosphere: LokiF - Swamp Environment Audio
+  - Cat Footsteps: melle_teich - Animal footsteps on dry leaves
+  - Cat Jump: FOX2814 - Cat jump
