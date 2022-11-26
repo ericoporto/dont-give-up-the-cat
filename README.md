@@ -26,6 +26,8 @@ The ZoneManager divides the world in a grid, and inserts the player in the cente
 
 ## Credits
 
+Code is MIT Licensed, except when code specific license is applied. Game Assets are all rights reserved or they belong to their original authors.
+
 - Game by Érico Porto
 - Music by Jon Paul Sapsford
 - Ghosts, graves and icon by Haloa
