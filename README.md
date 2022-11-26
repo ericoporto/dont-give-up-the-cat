@@ -35,3 +35,4 @@ The ZoneManager divides the world in a grid, and inserts the player in the cente
   - Forest crickets and atmosphere: LokiF - Swamp Environment Audio
   - Cat Footsteps: melle_teich - Animal footsteps on dry leaves
   - Cat Jump: FOX2814 - Cat jump
+  - Game Font: Fibberish by  Nathan Scott
