@@ -1,6 +1,6 @@
 # dont-give-up-the-cat
 
-[AGS Forums Topic](https://www.adventuregamestudio.co.uk/forums/completed-game-announcements/don-t-give-up-the-cat/) | [on itch.io](https://eri0o.itch.io/dont-give-up-the-cat) | [AGS DB](https://www.adventuregamestudio.co.uk/site/games/game/2643-don-t-give-up-the-cat/)
+[AGS Forums Topic](https://www.adventuregamestudio.co.uk/forums/index.php?topic=60424.0) | [on itch.io](https://eri0o.itch.io/dont-give-up-the-cat) | [AGS DB](https://www.adventuregamestudio.co.uk/site/games/game/2643-don-t-give-up-the-cat/)
 
 <img src="images/dgutc_cover.gif" width="320">
 
