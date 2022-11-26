@@ -3,13 +3,15 @@
 [AGS Forums Topic](https://www.adventuregamestudio.co.uk/forums/completed-game-announcements/don-t-give-up-the-cat/) | [on itch.io](https://eri0o.itch.io/dont-give-up-the-cat) | [AGS DB](https://www.adventuregamestudio.co.uk/site/games/game/2643-don-t-give-up-the-cat/)
 
 <img src="images/dgutc_cover.gif" width="320">
-Tonight, your owner let you out in the woods
+
+*Tonight, your owner let you out in the woods*
 
 A short game intended to be played at night, using headphones. In this first-person game you use your mouse to look around and scratch things, and WASD keys for walking, shift to run, and you use Esc to show the menu. After you run you may sit around to breathe a bit and listen to the forest. 
 
 ## Screenshots
 
-<img src="images/screenshot_00.png" width="320"> <img src="images/screenshot_01.png" width="320"> <img src="images/screenshot_02.png" width="320">
+<img src="images/screenshot_00.png" width="320"> <img src="images/screenshot_01.png" width="320">
+<img src="images/screenshot_02.png" width="320"> <img src="images/controls.png" width="320">
 
 ## Renderer system
 
