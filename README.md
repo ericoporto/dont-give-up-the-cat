@@ -1,14 +1,12 @@
 # dont-give-up-the-cat
 
+<img src="images/dgutc_cover.gif" width="320">
 Tonight, your owner let you out in the woods
 
-![](images/dgutc_cover.gif)
 
 ## Screenshots
 
-![](images/screenshot_00.png)
-
-![](images/screenshot_01.png)
+<img src="images/screenshot_00.png" width="320"> <img src="images/screenshot_01.png" width="320"> <img src="images/screenshot_02.png" width="320">
 
 ## Renderer system
 
