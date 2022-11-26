@@ -2,8 +2,13 @@
 
 Tonight, your owner let you out in the woods
 
-![](images/gcover.png)
+![](images/dgutc_cover.gif)
 
+## Screenshots
+
+![](images/screenshot_00.png)
+
+![](images/screenshot_01.png)
 
 ## Renderer system
 
