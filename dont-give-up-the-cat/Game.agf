@@ -16,7 +16,7 @@
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <BuildTargets>Windows</BuildTargets>
+      <BuildTargets xml:space="preserve">Windows, Linux</BuildTargets>
       <ClipGUIControls>True</ClipGUIControls>
       <ColorDepth>TrueColor</ColorDepth>
       <CompressSpritesType>RLE</CompressSpritesType>
@@ -65,7 +65,7 @@
       <RoomTransition>FadeOutAndIn</RoomTransition>
       <RunGameLoopsWhileDialogOptionsDisplayed>False</RunGameLoopsWhileDialogOptionsDisplayed>
       <SaveGameFileExtension />
-      <SaveGameFolderName xml:space="preserve">Don't Give up the Cat</SaveGameFolderName>
+      <SaveGameFolderName>dont_give_up_the_cat</SaveGameFolderName>
       <SaveScreenshots>True</SaveScreenshots>
       <ScaleMovementSpeedWithMaskResolution>False</ScaleMovementSpeedWithMaskResolution>
       <ScriptAPIVersion>Highest</ScriptAPIVersion>
@@ -10988,6 +10988,86 @@ stop]]></Script>
               </Sprite>
             </Sprites>
           </SpriteFolder>
+          <SpriteFolder Name="Fireflies">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="462" Width="5" Height="5" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Sprites/Fireflies/firefly_00.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>5</ImportHeight>
+                  <ImportWidth>5</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="463" Width="5" Height="5" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Sprites/Fireflies/firefly_01.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>5</ImportHeight>
+                  <ImportWidth>5</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="464" Width="5" Height="5" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Sprites/Fireflies/firefly_02.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>5</ImportHeight>
+                  <ImportWidth>5</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="465" Width="5" Height="5" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Sprites/Fireflies/firefly_03.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>5</ImportHeight>
+                  <ImportWidth>5</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="466" Width="5" Height="5" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Sprites/Fireflies/firefly_04.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>5</ImportHeight>
+                  <ImportWidth>5</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
         </SubFolders>
         <Sprites>
           <Sprite Slot="0" Width="1" Height="1" ColorDepth="8" Resolution="Real" AlphaChannel="False">
@@ -13577,6 +13657,30 @@ stop]]></Script>
                 <Author />
                 <Version />
                 <Key>1299727803</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
+                <FileName>FireflyFx.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>193848196</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>FireflyFx.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>193848196</Key>
                 <IsHeader>False</IsHeader>
               </Script>
             </ScriptAndHeader_Script>

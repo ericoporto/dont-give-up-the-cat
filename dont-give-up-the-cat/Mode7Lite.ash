@@ -1,6 +1,6 @@
 // new module header
 // THIS MODULE HAS BEEN HACKED DOWN TO OPTIMIZE FOR THIS MAGS, USE THE ACTUAL MODULE INSTEAD OF THIS
-#define MAX_OBJECTS 4096
+#define MAX_OBJECTS 2048
 
 enum eCameraTargetType {
   eCameraTarget_FollowBehind,
@@ -28,6 +28,9 @@ managed struct Mode7Object {
   float Angle;
   /// Object visibility
   bool Visible;
+  
+  /// Transparency hack
+  int Transparency;
   
   /// On-Screen Object X position when drawing, if visible
   int ScreenX;
@@ -68,11 +71,7 @@ struct Mode7 {
   
   /// Draws the ground sprite and horizon rendered in the Screen sprite
   import void Draw();
-  
-  /// Clears the screen sprite
-  import void ResetGround();
-  
-  
+    
   import void DebugKeyPress(eKeyCode k);
   
   /// The camera angle that is normal to the ground plane (e.g.: up and down)
@@ -87,8 +86,7 @@ struct Mode7 {
   
   /// The Dynamic Sprite that represents the screen where the Mode7 ground is draw to 
   writeprotected DynamicSprite* Screen;  
-  
-  
+    
   // EVERYTHING BELOW IS INTERNAL TO THE STRUCT AND YOU DON'T NEED TO TOUCH ///
   
   // camera
@@ -123,9 +121,6 @@ struct Mode7 {
   // track
   protected bool _is_horizon_dynamic;
   protected int _track_sprite_slot, _horizon_sprite_slot;
-  protected DynamicSprite* _track_sprite;
-  protected DynamicSprite* _ground_3d;
-  protected DynamicSprite* _empty;
     
   // private methods
   import protected void _DrawTrack3D();
@@ -148,8 +143,6 @@ struct Mode7World extends Mode7 {
   
   /// Draws the ground sprite and the objects over it, in the screen sprite.
   import void DrawWorld();
-  /// Gets a dynamic sprite with the world draw in top down view, useful for debugging.
-  import DynamicSprite* DrawWorld2D();
   
   /// Get first object at x,y position,  with tolerance
   import Mode7Object* GetObject(float x, float z, float radius, int graphic_count, int graphics[]);
@@ -157,11 +150,7 @@ struct Mode7World extends Mode7 {
   /// Let's you access a specific object in the mode7 world by it's index. Make sure to access a valid position.
   Mode7Object* Objects [MAX_OBJECTS];
   
-  int OverlaysGraphic [MAX_OBJECTS];
   Overlay* Overlays [MAX_OBJECTS];
   /// Gets how many objects are currently in the mode7 world.
-  writeprotected int ObjectCount;  
-  writeprotected int ObjectScreenVisibleCount;
-  writeprotected int ObjectScreenVisibleOrder[MAX_OBJECTS];
-  writeprotected int ObjectScreenVisibleID[MAX_OBJECTS];
+  writeprotected int ObjectCount;
 };
