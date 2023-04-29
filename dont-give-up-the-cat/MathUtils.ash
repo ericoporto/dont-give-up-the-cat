@@ -23,6 +23,7 @@ import float Lerp(float from, float to, float t);
 import int GetDistance(int x1, int y1, int x2, int y2);
 
 /// keep angle between -Pi and +Pi, rolling if needed
-import float NormalizeAngle(float theta);
+import float NormalizeAngleDegrees(float theta);
+import float NormalizeAngleRadians(float theta);
 
 import float TernaryF(bool expr, float v1, float v2);
